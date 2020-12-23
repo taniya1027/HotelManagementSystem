@@ -228,7 +228,7 @@ public class Hotel
 		
     static void bill(int roomno) throws IOException
 	{
-		FileWriter fw = new FileWriter("C:\\Users\\Taniya\\java programs\\file try\\Hotel.txt",true);
+		FileWriter fw = new FileWriter("backup",true);
 		BufferedWriter bw = new BufferedWriter(fw);
 		if( roomno <= 10 && Holder.singleroom[roomno-1] != null )
 		{
